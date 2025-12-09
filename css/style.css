@@ -55,7 +55,7 @@ body {
 .hero {
 position: relative;
 	height: 100vh;
-	background-image: url("//paoisacaliendo.github.io/Prueba2PaolaCaliendo_/hero-image.jpg");
+	background-image: url("//paoisacaliendo-hub.github.io/Prueba2PaolaCaliendo_/hero-image.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -106,4 +106,5 @@ position: relative;
 	height: auto;
 
 }
+
 
