@@ -1,0 +1,107 @@
+:root{
+	--color-general:#686868;
+	--color-titulos:#303030;
+	--color-hover-menu:#FE8F01;
+	--fondo-header:#202020;
+	--fondo-footer: #353330;
+	--letra-footer: #777;
+}
+body{
+	font-size: 17px;
+	color: #666;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	padding: 15px 0;
+	color: var(--letra-footer);
+	text-align: center;
+}
+footer img {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Alegreya+Sans:wght@400;700&display=swap');
+
+:root {
+	--color-text: #686868;
+	--color-title: #303030;
+	--color-gray: #F8F8F8;
+}
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	color: var(--color-text);
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+.section-title {
+	font-family: 'Alegreya', serif;
+	color: var(--color-title);
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.section-subtitle {
+	margin-bottom: 40px;
+}
+
+.hero {
+position: relative;
+	height: 100vh;
+	background-image: url("/img/hero-image.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hero h1 {
+	font-family: 'Alegreya', serif;
+	font-size: 60px;
+	margin: 20px 0;
+}
+
+.hero p {
+	max-width: 600px;
+	margin: 0 auto 30px;
+}
+
+.hero-buttons .btn {
+	margin: 5px;
+	padding: 12px 30px;
+}
+
+.icon-list {
+	list-style: none;
+	padding: 0;
+}
+
+.icon-list li {
+	margin-bottom: 10px;
+}
+
+.icon-list i {
+	color: #c2a476;
+	margin-right: 10px;
+}
+
+.location {
+	background-color: var(--color-gray);
+}
+
+.baking h4 {
+	margin-top: 20px;
+	font-family: 'Alegreya', serif;
+	color: var(--color-title);
+}
+
+.baking img {
+	width: 100%;
+	height: auto;
+}
