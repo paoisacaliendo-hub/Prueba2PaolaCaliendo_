@@ -55,7 +55,7 @@ body {
 .hero {
 position: relative;
 	height: 100vh;
-	background-image: url("/img/hero-image.jpg");
+	background-image: url("img/hero-image.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -104,4 +104,5 @@ position: relative;
 .baking img {
 	width: 100%;
 	height: auto;
+
 }
